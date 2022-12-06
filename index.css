@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+     background-image: url(/img/bgc.jpg);
+     background-position: center;
+     background-size: cover;
+     height: 600px;
+}
+.container{
+    background-color: rgb(240, 236, 236);
+    height: 500px;
+    width: 600px;
+    margin: 30px auto 300px auto;
+    border-radius: 15px;
+    padding: 30px 60px;
+ 
+}
+.container .form{
+    display: flex;
+    flex-direction: row;
+   margin-bottom: 40px;
+}
+.container .form .input{
+  height: 50px;
+  width: 500px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 20px;
+  padding-left: 20px ;
+}
+.container .form .input:hover{
+   
+    border-radius: none;
+    border-bottom: 3px   rgb(14, 121, 251) solid;
+}
+.container .form .btn{
+    background-color:rgb(14, 121, 251);
+    height: 50px;
+    width: 100px;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    font-size: medium;
+
+}
+
+.container .country{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 500px;
+    margin: 0 auto;
+    
+
+}
+.container .country img{
+    width: 250px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 100px;
+    position: relative;
+    bottom:  480px;
+    left: 0px;
+}
+.container .country .country-name{
+    padding-top: 10px;
+    font-size: x-large;
+    margin: 0 auto;
+    font-weight: bolder;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+    bottom:  190px;
+    left: 0px;
+}
+
+.container .country .info{
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    
+}
+.container .country .info .h4{
+    font-size: larger;  
+    padding-bottom: 5px;
+}
+.container .country .info .h4 .xogta{
+    padding-left: 10px;
+    font-size: large;
+    font-weight: 500;
+    font-family:   Times, serif;
+}
+
+.container .country .refresh{
+    background-color: rgb(14, 121, 251);
+    height: 50px;
+    width: 60px;
+    border: none;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 90px;
+    left: 750px;
+    color: white;
+}
