@@ -3,8 +3,6 @@
 This is simple project that gives you information about of every country
 , like capital city ,currency , population and many more
 
-
-
 **=> Using this API**
 ```
 https://restcountries.com/v3.1/name/somalia?fullText=true
